@@ -25,15 +25,13 @@ def askUserChoice():
     print('pick a stick 1 to 4')
     userinput=int(input())
 
-    while userinput > 4:
+    while userinput > 4 < 1:
         
         print ('choose a stick between 1 and 4')
-        userinput=int(input()
-                      
+        userinput=int(input())
+                              
     
     
-    
-
     return userinput
 
     # TODO: write code in this functiont that:

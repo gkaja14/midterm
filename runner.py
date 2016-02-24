@@ -12,5 +12,5 @@ def testQ1():
 print('Q1:')
 testQ1()
     
-print('Q2:')
+#print('Q2:')
 q2.playGame()
