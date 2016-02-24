@@ -25,7 +25,8 @@ def askUserChoice():
     print('pick a stick 1 to 4')
     userinput=int(input())
 
-    while userinput > 4 < 1:
+    while userinput > 4 or userinput <1:
+        
         
         print ('choose a stick between 1 and 4')
         userinput=int(input())
