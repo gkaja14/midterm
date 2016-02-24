@@ -22,19 +22,21 @@ def playGame():
         
 
 def askUserChoice():
-    print('pick a stick 1 to 4')
-    userinput=int(input())
+    pick=[1,2,3,4]
+    userChoice=''
 
-    while userinput > 4 or userinput <1:
+    while usercChoice not in pick:
+        print('choose a number between 1 and 4')
+        userChoice=int(input())
+
+        if userChoice not in pick:
+            print('choose a number between 1 and 4')
+            continue
+        else:
+            return userChoice
         
         
-        print ('choose a stick between 1 and 4')
-        userinput=int(input())
-                              
-    
-    
-    return userinput
-
+       
     # TODO: write code in this functiont that:
     # 1. Asks the user to enter their input (between 1 and 4)
     # 2. Checks that the user's input is valid. If it's not valid (if it's not between 1 and 4), then ask the user to re-enter their input.
