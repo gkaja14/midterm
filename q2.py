@@ -49,8 +49,7 @@ def subtractSticks( number ):
     if sticks <= 0:
         return True
     else:
-                      
-return False
+        return False
                       
                       
     
