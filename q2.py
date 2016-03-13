@@ -50,7 +50,7 @@ def subtractSticks( number ):
         return True
     else:
                       
-    return False
+return False
                       
                       
     
